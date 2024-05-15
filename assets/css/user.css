@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    color: #fff;
+    background-color: #f6f6f6;
+}
+
+.container {
+    background-color: #222d32;
+    width: 300px;
+    height: 739px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.img__user {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.name__fullname--text {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.navbar__title {
+    background-color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.information__list--items {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 20px 0 20px 40px ;
+}
+
+.information__list--items:hover {
+    cursor: pointer;
+    color: #33b5e5 ;
+}
+
+.information__list--items:hover a {
+    cursor: pointer;
+    color: #33b5e5 ;
+}
+
+.information__list--items:hover .change__information {
+    color: #fff ;
+}
+
+.information__list--items:hover .change__information a {
+    color: #fff ;
+}
+
+.information__list--items i {
+    margin-right: 10px;
+}
+
+.change__information {
+    display: inline-block;
+    display: none;
+    list-style-type: none;
+}
+
+.change__information--items {
+    padding: 20px 0 0 10px;
+}
+
+.information__list--items__text  a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar__header__logout a {
+    text-decoration: none;
+}
+
+.navbar__header__logout a:hover {
+    color: red;
+}
+
+/**/
+
+.account {
+    color: black
+}
+
+.account__acc--info {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.account__infor {
+    background-color: #fff;
+    width: 1000px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+input {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 800px;
+    background-color:#D9D9D9;
+}
+
+.account__infor--list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infor__list--birth__input, .infor__list--gender__input {
+    width: 350px;
+}
+
+.infor__list--birth__input {
+    margin-right: 80px;
+}
+
+
+.information {
+    display: none;
+}
+
+
+.Change_information {
+    display: none;
+}
+
+.account__infor--firstname {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn__update {
+    margin: 20px 0;
+    position: absolute;
+    top: 56%;
+    right: 16%;
+}
+
+.btn__update--infor {
+    background-color: #18396f;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__update--infor:hover {
+    background-image: linear-gradient(to right, #3f6bb7, #2f5caf, #1b4497, #031c45);
+    box-shadow: 0 4px 15px 0 rgba(9, 53, 231, 0.75);
+}
+
+/* Change Password */
+.Change_password {
+    display: none;
+}
+
+.changePassword__show--password {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 54%;
+    left: 34%;
+    font-size: 1.2rem;
+    width: 168px;
+}
+
+.changePassword__show--password  input {
+    padding: 8px;
+    margin: 10px 6px 10px 0;
+    border-radius: 10px;
+    width: 20px;
+    background-color: #D9D9D9;
+}
+
+
+/* User Register Schedule */
+
+.Schedule {
+    position: absolute;
+    top: 0;
+    left:  20%;
+    display: none;   
+    color: #000;
+}
+
+.schedule__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule__title {
+    /* width: 26%; */
+}
+
+.schedule__title--text h1 {
+    border-bottom: 3px solid #33B5E5;
+    width: 320px;
+    text-align: left;
+    padding: 10px;
+    color: #000;
+}
+
+.schedule__body {
+    position: relative;
+    width: 100%;
+    /* margin-left: 100px; */
+}
+
+.schedule__body--regesting {
+    /* padding-left: 80px; */
+}
+
+.register__schedule--search input {
+    width: 400px;
+}
+
+.register__schedule--search i {
+    position: absolute;
+    top: 10px;
+    color: #000;
+    font-size: 1.4rem ;
+    left: 362px;
+    padding: 6px;
+    background-color: #3399CC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.icon__shceduling--register {
+    /* left: 441px !important; */
+}
+
+.register__schedule--search i:hover {
+    background-color: #33B5E5;
+}
+
+.ScheduleRegisted--title {
+    width: 364px !important;
+}
+
+/* Css for table */
+.striped-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.striped-table th,
+.striped-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.striped-table tbody tr:nth-child(even) {
+    background-color: #f1f5f6; /* Màu nền cho các hàng chẵn */
+}
+
+.striped-table tbody tr:nth-child(odd) {
+    background-color: white; /* Màu nền cho các hàng lẻ */
+}
+
+.schedule__body--allNotUser {
+    margin-left: 150px;
+}
+
+.schedule__body--allNotUser_register, .schedule__body--allNotUser {
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid black;
+}
